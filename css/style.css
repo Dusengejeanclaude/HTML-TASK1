@@ -68,10 +68,18 @@ ul.top_menu {
 .side_menu{
   width: 250px;
   float: left;
+  padding-top: 10px;
 }
-
+.th{
+  height:80px; 
+}
 .side_menu li{
   background-color:pink;
+  height: 7rem;
+  margin-bottom: 10px;
+}
+.side_menu1 li{
+  background-color:lightgrey;
   height: 7rem;
   margin-bottom: 10px;
 }
@@ -93,7 +101,7 @@ ul.top_menu {
 }
 
 .banner img{
-  width: 100%;
+  width: 80%;
 }
 
 .banner{
@@ -110,27 +118,36 @@ ul.top_menu {
 
 }
 .content{
+  padding-top:2.5rem;
   float: right;
+  margin-top: 30px;
 }
 .table input[type="text"]{
   width: 480px;
   font-size: 20px;
   float: right;
+   
 
 }
 .submit {
   font-size:20px; 
   text-align: center;
-  
+  width: 100px;
+  margin-left: 280px;
 }
 
 input[type="submit"]{
-  font-size:30px; 
-  color:black;    
+  
+  background-color:pink;
+  height: 6rem;
+  margin-bottom: 30px;
+  
+    
 }
 
-input[type="submit"] :hover{
-  opacity:0.6;    
+.submit:hover{
+  opacity:0.6; 
+   
 }
 
 .table{
